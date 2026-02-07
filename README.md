@@ -46,6 +46,16 @@ O que mudou:
 - Separei as habilidades em 3 colunas.
 - Arrumei os dados de peso e altura, pois estavam 10 vezes maior do que deveriam ser.
 
+Esse é o dataframe final:
+| pokemon | type_1 | type_2 | base_experience | height_m | weight_kg | hp | attack | defense | specialattack | specialdefense | speed | ability_1 | ability_2 | ability_3 |
+|--------|--------|--------|-----------------|----------|-----------|----|--------|---------|---------------|----------------|-------|-----------|-----------|-----------|
+| bulbasaur | grass | poison | 64  | 0.7 | 6.9  | 45 | 49 | 49 | 65 | 65 | 45 | overgrow | chlorophyll | NaN |
+| ivysaur   | grass | poison | 142 | 1.0 | 13.0 | 60 | 62 | 63 | 80 | 80 | 60 | overgrow | chlorophyll | NaN |
+| venusaur  | grass | poison | 236 | 2.0 | 100.0 | 80 | 82 | 83 | 100 | 100 | 80 | overgrow | chlorophyll | NaN |
+| charmander| fire  | NaN    | 62  | 0.6 | 8.5  | 39 | 52 | 43 | 60 | 50 | 65 | blaze | solar-power | NaN |
+| charmeleon| fire  | NaN    | 142 | 1.1 | 19.0 | 58 | 64 | 58 | 80 | 65 | 80 | blaze | solar-power | NaN |
+
+
 ## Análise dos Dados
 
 Por último, usei algumas bibliotecas para construção de gráficos, como Matplotlib, Seaborn, Plotly e Streamlit. Os gráficos podem ser vistos neste [arquivo](https://github.com/Rafael-aaf/Dashboard-com-Dados-de-Pokemon/blob/main/An%C3%A1lise%20de%20Dados%20de%20Pok%C3%A9mon.ipynb).
