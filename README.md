@@ -37,8 +37,18 @@ Esse é o dataframe inicial:
  
 ## Organização dos Dados
 
+Nesta etapa, eu utilizei o Jupyter e o Pandas
+
+O que mudou:
+- Colunas em minúsculo.
+- Separei os tipos em 2 colunas.
+- Separei os stats em 6 colunas: 'hp', 'attack', 'defense', 'specialattack', 'specialdefense', 'speed'.
+- Separei as habilidades em 3 colunas.
+- Arrumei os dados de peso e altura, pois estavam 10 vezes maior do que deveriam ser.
 
 ## Análise dos Dados
+
+Por último, usei algumas bibliotecas para construção de gráficos, como Matplotlib, Seaborn, Plotly e Streamlit. Os gráficos podem ser vistos neste [arquivo](https://github.com/Rafael-aaf/Dashboard-com-Dados-de-Pokemon/blob/main/An%C3%A1lise%20de%20Dados%20de%20Pok%C3%A9mon.ipynb).
 
 
 
